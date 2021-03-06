@@ -108,3 +108,6 @@ hide-version tools/EasyBuild/4.3.2
 hide-version tools/Szip/2.1.1-GCCcore-10.2.0
 hide-version tools/Zip/3.0-GCCcore-10.2.0
 hide-version lib/libsodium/1.0.18-GCCcore-10.2.0
+hide-version devel/ZeroMQ/4.3.3-GCCcore-10.2.0
+hide-version system/OpenPGM/5.2.122-GCCcore-10.2.0
+hide-version lang/Python/2.7.18-GCCcore-10.2.0
