@@ -1,0 +1,34 @@
+easyblock = 'Binary'
+name = 'VTune'
+version = '2021.1.2.150'
+
+homepage = 'https://software.intel.com/en-us/vtune'
+description = """Intel VTune Amplifier XE is the premier performance profiler for C, C++, C#, Fortran,
+ Assembly and Java."""
+
+toolchain = SYSTEM
+
+source_urls = ['https://registrationcenter-download.intel.com/akdlm/irc_nas/17527/']
+sources = ['l_oneapi_vtune_p_%(version)s_offline.sh']
+checksums = ['6efcf30550613a4b52bd10bdc37d21fcdf170e5cc8429f7ecf71b7e0abf06af6']
+
+install_cmd = '%(builddir)s/l_oneapi_vtune_p_%(version)s_offline.sh -a --cli --silent --intel-sw-improvement-program-consent no --action install --components default --eula accept --install-dir=%(installdir)s --download-cache=%(builddir)s/cache'
+
+modextrapaths = {
+  'PATH':'vtune/latest/bin64'
+}
+
+modextravars = {
+  'VTUNE_PROFILER_2021_DIR':'%(installdir)s/vtune/latest'
+}
+
+sanity_check_paths = {
+    'files': ['vtune/latest/bin64/amplxe-gui'],
+    'dirs': [],
+}
+
+moduleclass = 'tools'
+
+#NOTE:
+# one has to delete ~/intel as intel installer caches installation and installdb there :/
+# rm ~/intel -rf
