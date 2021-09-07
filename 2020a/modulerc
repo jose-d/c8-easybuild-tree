@@ -75,3 +75,14 @@ hide-version tools/Szip/2.1.1-GCCcore-9.3.0
 hide-version tools/UnZip/6.0-GCCcore-9.3.0
 hide-version tools/XZ/5.2.5-GCCcore-9.3.0
 hide-version tools/Zip/3.0-GCCcore-9.3.0
+hide-version devel/gperf/3.1-GCCcore-9.3.0
+hide-version devel/intltool/0.51.0-GCCcore-9.3.0
+hide-version tools/Meson/0.55.1-GCCcore-9.3.0-Python-3.8.2
+hide-version tools/util-linux/2.35-GCCcore-9.3.0
+hide-version vis/fontconfig/2.13.92-GCCcore-9.3.0
+hide-version vis/freetype/2.10.1-GCCcore-9.3.0
+hide-version vis/Tk/8.6.10-GCCcore-9.3.0
+hide-version vis/X11/20200222-GCCcore-9.3.0
+hide-version lang/Tkinter/2.7.18-GCCcore-9.3.0
+hide-version compiler/iccifort/2020.1.217
+hide-version lib/libyaml/0.2.2-GCCcore-9.3.0

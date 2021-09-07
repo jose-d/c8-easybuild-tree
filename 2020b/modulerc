@@ -144,3 +144,17 @@ hide-version vis/Tk/8.6.10-GCCcore-10.2.0
 hide-version vis/X11/20201008-GCCcore-10.2.0
 hide-version vis/x264/20201026-GCCcore-10.2.0
 hide-version vis/x265/3.3-GCCcore-10.2.0
+hide-version lib/PyYAML/5.3.1-GCCcore-10.2.0
+hide-version lib/libyaml/0.2.5-GCCcore-10.2.0
+hide-version compiler/iccifort/2020.4.304
+hide-version mpi/impi/2019.9.304-iccifort-2020.4.304
+hide-version numlib/imkl/2020.4.304-iimpi-2020b
+hide-version toolchain/iimpi/2020b
+hide-version lib/dm-tree/0.1.5-GCCcore-10.2.0
+hide-version vis/libGLU/9.0.1-GCCcore-10.2.0
+hide-version compiler/impi/2021.1.1-intel-compilers-2021.1.2
+hide-version compiler/intel-compilers/2021.1.2
+hide-version tools/EasyBuild/4.3.4
+hide-version data/h5py/3.1.0-fosscuda-2020b
+hide-version lib/NCCL/2.8.3-GCCcore-10.2.0-CUDA-11.1.1
+
